@@ -1,4 +1,4 @@
-var chunker = require('./chunker')
+const chunker = require('./chunker')
 var ndarray = require('ndarray')
 
 module.exports = function(opts) {

@@ -1,5 +1,5 @@
-var test = require('tape')
-var voxel = require('./')
+const test = require('tape')
+var voxel = require('./index.js')
 
 test('create', function (t) {
   var chunker = voxel({chunkDistance: 2, chunkSize: 32, cubeSize: 1})
